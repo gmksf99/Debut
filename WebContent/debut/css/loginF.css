@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+#wrap {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	float: none;
+}
+#page_header {
+	clear: both;
+	float: none;
+	height: 116px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+#page_center {
+	clear: both;
+	float: none;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+}
+#page_footer {
+	background-color: #810B0C;
+	clear: both;
+	float: none;
+	height: 160px;
+	width: 1200px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#toTop {
+	float: right;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	position: fixed;
+	margin-top: 570px;
+}
+.footer_info {
+	text-align: center;
+	clear: both;
+	float: left;
+	height: 90px;
+	width: 1200px;
+	color: #FFF;
+	margin-top: 10px;
+}
+.footer_list {
+	clear: both;
+	float: left;
+	height: 26px;
+	width: 1200px;
+	margin-top: 10px;
+	color: #FFF;
+}
+body {
+	font-family: 'Nanum Myeongjo', serif;
+	margin-right: auto;
+	margin-left: auto;
+	height: 630px;
+	width: 1200px;
+}
+.login_te {
+	height: 180px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	text-align: center;
+	color: #810B0C;
+}
+#userIdfield {
+	font-size: 36px;
+}
+#pwdfield {
+	font-size: 36px;
+}
+.id_area {
+	height: 31px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border: 1px solid #810B0C;
+	margin-bottom: 10px;
+}
+.pw_area {
+	height: 31px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #810B0C;
+	border: 1px solid #810B0C;
+	-moz-background-clip: 1;
+}
+#pwd {
+	font-size: 16px;
+	margin-top: 5px;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	width: 280px;
+	margin-left: 10px;
+}
+
+#userId {
+	font-size: 16px;
+	margin-top: 5px;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	margin-left: 10px;
+	width: 280px;
+}
+.click_login {
+	height: 50px;
+	width: 220px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	background-color: #810B0C;
+	font-size: 36px;
+font-family: 'Nanum Myeongjo', serif;
+}
