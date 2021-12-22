@@ -1,0 +1,26 @@
+@charset "utf-8";
+#wrap{
+	height:500px;
+}
+.viewlist{
+	color:#000;
+}
+table{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+tr{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+td{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #6D1B05;
+	border-left-style: none;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+.MP {
+	color: #810A0B;
+	text-align: center;
+	float: none;
+	height: 75px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 30pt;
+	font-weight: bolder;
+	border-top-style: double;
+	border-right-style: none;
+	border-bottom-style: double;
+	border-left-style: none;
+	border-top-color: #810A0B;
+	border-right-color: #810A0B;
+	border-bottom-color: #810A0B;
+	border-left-color: #810A0B;
+}
+.box {
+	color: #810A0B;
+	background-color: #FFFFFF;
+	text-align: center;
+	height: 250px;
+	width: 230px;
+	margin-left: 50px;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-color: #810A0B;
+	border-right-color: #810A0B;
+	border-bottom-color: #810A0B;
+	border-left-color: #810A0B;
+	margin-top: 70px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.MPtable {
+	color: #810B0C;
+	text-align: center;
+	float: none;
+	height: 800px;
+	width: 800px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #810B0C;
+	border-right-color: #810B0C;
+	border-bottom-color: #810B0C;
+	border-left-color: #810B0C;
+}

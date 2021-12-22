@@ -1,0 +1,9 @@
+@charset "utf-8";
+.rosemontImage {
+	clear: none;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 20px;
+}

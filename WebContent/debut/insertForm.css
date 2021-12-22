@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.contentForm{
+	margin-left:20px;
+	text-align:left;
+}
+table {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #810B0C;
+	border-bottom-color: #810B0C;
+	margin-left: 85px;
+	margin-top:25px;
+}
+.content{
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	border-top-width: 0.7px;
+	border-bottom-width: 0.6px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #810B0C;
+	border-bottom-color: #810B0C;
+	font-weight: bold;
+}
+.contentForm{
+	height:40px;
+	padding-left: 15px;
+	border-top-width: 0.6px;
+	border-bottom-width: 0.5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #810B0C;
+	border-bottom-color: #810B0C;
+	margin-left:20px;
+	text-align:left;
+}

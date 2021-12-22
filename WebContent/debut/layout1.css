@@ -1,0 +1,326 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+body {
+	font-family: 'Nanum Myeongjo', serif;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*하이퍼링크 스타일*/
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+body,td,th {
+	font-family: "Nanum Myeongjo", serif;
+	color: #000;
+}
+
+#wrap {
+	height: 1613px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#page_header {
+	clear: both;
+	float: left;
+	height: 132px;
+	width: 1200px;
+}
+#page_center {
+	clear: both;
+	float: left;
+	height: 1310px;
+	width: 1200px;
+}
+#page_footer {
+	clear: both;
+	float: left;
+	height: 171px;
+	width: 1200px;
+	background-color: #810B0C;
+	text-align: center;
+}
+#logo {
+	float: left;
+	height: 52px;
+	width: 161px;
+	margin-top: 18px;
+	margin-left: 520px;
+}
+#nav_bar {
+	float: left;
+	height: 29px;
+	width: 770px;
+	margin-top: 18px;
+	margin-left: 242px;
+}
+
+
+
+/*nav_bar밑에 메뉴 이미지 스타일*/
+.brand {
+	clear: none;
+	float: left;
+	height: 29px;
+	width: 108px;
+}
+
+
+.navList {
+	display: inline;
+	list-style-type: none;
+	margin-left: 32px;
+}
+
+
+.footer_list {
+	margin-top: 5px;
+	text-align: center;
+}
+
+ul.navHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	cursor: default;
+	width: auto;
+}
+
+
+.footerList {
+	display: inline;
+	list-style-type: none;
+	margin-left: 32px;
+	font-size: 12px;
+
+}
+.footer_info {
+	text-align: center;
+	clear: both;
+	float: left;
+	height: 90px;
+	width: 1200px;
+	color: #FFF;
+	margin-top: 10px;
+	font-size: 10px;
+}
+.brand1 {
+	clear: none;
+	float: left;
+	height: 292px;
+	width: 292px;
+	margin-bottom: 15px;
+	background-image: url(images/brand1.png);
+	background-repeat: no-repeat;
+}
+.brand2 {
+	clear: none;
+	float: left;
+	height: 292px;
+	width: 292px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	background-image: url(images/brand2.png);
+	background-repeat: no-repeat;
+}
+.brand3 {
+	clear: none;
+	float: left;
+	height: 292px;
+	width: 292px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	background-image: url(images/brand3.png);
+	background-repeat: no-repeat;
+}
+.brand4 {
+	clear: none;
+	float: left;
+	height: 292px;
+	width: 292px;
+	margin-bottom: 15px;
+	background-image: url(images/brand4.png);
+	background-repeat: no-repeat;
+}
+.brand5 {
+	clear: none;
+	float: left;
+	height: 292px;
+	width: 292px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	background-image: url(images/brand5.png);
+	background-repeat: no-repeat;
+}
+.brand6 {
+	clear: none;
+	float: left;
+	height: 292px;
+	width: 292px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	background-image: url(images/brand6.png);
+	background-repeat: no-repeat;
+}
+.brands {
+	clear: both;
+	float: left;
+	height: 599px;
+	width: 906px;
+	margin-left: 150px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.brand1:hover{
+	background-image:url(images/brand1_1.png);
+}
+.brand2:hover{
+	background-image:url(images/brand2_1.png);
+}
+.brand3:hover{
+	background-image:url(images/brand3_1.png);
+}
+.brand4:hover{
+	background-image:url(images/brand4_1.png);
+}
+.brand5:hover{
+	background-image:url(images/brand5_1.png);
+}
+.brand6:hover{
+	background-image:url(images/brand6_1.png);
+}
+
+.recommend {
+	clear: both;
+	float: left;
+	height: 358px;
+	width: 905px;
+	margin-top: 15px;
+	margin-left: 150px;
+
+}
+
+
+.icons {
+	float: right;
+	height: 25px;
+	width: 95px;
+	margin-right: 150px;
+	margin-top: 18px;
+}
+.icon {
+	clear: none;
+	float: left;
+	height: 25px;
+	width: 25px;
+	margin-left:5px;
+}
+
+
+#quick_menu {
+	height: 94px;
+	width: 107px;
+	position:fixed;
+	top:100px;
+	right:120px;
+}
+
+
+
+
+
+/*~~~~이미지 슬라이더~~~~*/
+.container {
+	float: left;
+	height: 284px;
+	width: 905px;
+	margin-top: 15px;
+	margin-left: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#prev,
+#next {
+    position: absolute;
+    top: 50%;
+	left:50%;
+    transform: translateY(-50%);
+    z-index: 999999;
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#prev.disabled, #next.disabled { display:none;}
+
+#prev { background-image: url('images/arrow-left-out.svg');
+		 margin-left:-75px;}
+
+#prev:hover { background-image: url('images/arrow-left-over.svg'); }
+
+#next {
+    margin-left:380px;
+    background-image: url('images/arrow-right-out.svg');
+	
+}
+
+#next:hover { background-image: url('images/arrow-right-over.svg'); }
+
+
+.slide {
+	float: left;
+	height: 284px;
+	width: 905px;
+	margin-top: 15px;
+	margin-left: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+#prev {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  cursor: pointer;
+}
+
+#next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
+  cursor: pointer;
+}
+/*~~~~이미지 슬라이더 종료~~~~*/
